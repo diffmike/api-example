@@ -1,0 +1,7 @@
+.select2-container {
+    width: 100% !important;
+}
+
+small.label.label-default {
+    display: none;
+}

@@ -1,0 +1,108 @@
+{
+  "variables": [],
+  "info": {
+    "name": "",
+    "_postman_id": "0f40d962-78f5-11e6-9d17-b05ada57d163",
+    "description": "",
+    "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+  },
+  "item": [
+    {
+      "name": "general",
+      "description": "",
+      "item": [
+        {
+          "name": "\u041f\u043e\u043f\u044b\u0442\u043a\u0430 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\n\u0415\u0441\u043b\u0438 \u0443\u043f\u0435\u0448\u043d\u043e - \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u044e\u0442\u0441\u044f \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\n\u0415\u0441\u043b\u0438 \u043d\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e - \u043f\u043e\u043f\u044b\u0442\u043a\u0430 \u043d\u0430\u0439\u0442\u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u0441 \u0442\u0430\u043a\u0438\u043c email \u0438\u043d\u0430\u0447\u0435 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043d\u043e\u0432\u043e\u0433\u043e",
+          "request": {
+            "url": "http:\/\/example\/api\/login",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "sallie.jenkins@example.org",
+                  "type": "text",
+                  "enabled": true
+                },
+                {
+                  "key": "password",
+                  "value": "blanditiis",
+                  "type": "text",
+                  "enabled": true
+                }
+              ]
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "\u0421\u043f\u0438\u0441\u043e\u043a \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u043e\u0432",
+          "request": {
+            "url": "http:\/\/example\/api\/shops",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "\u0421\u043f\u0438\u0441\u043e\u043a \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0430\u043a\u0446\u0438\u0439 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430",
+          "request": {
+            "url": "http:\/\/example\/api\/shops\/{shop}\/campaigns",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "\u0414\u0435\u0442\u0430\u043b\u0438 \u0430\u043a\u0446\u0438\u0438 \u0441\u043e \u0441\u043f\u0438\u0441\u043a\u043e\u043c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432 \u0430\u043a\u0446\u0438\u0438",
+          "request": {
+            "url": "http:\/\/example\/api\/campaigns\/{campaign}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u043e\u043c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435",
+          "request": {
+            "url": "http:\/\/example\/api\/users\/details",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "\u0421\u043f\u0438\u0441\u043e\u043a \u0447\u0435\u043a\u043e\u0432 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u0441 \u0442\u043e\u0432\u0430\u0440\u0430\u043c\u0438",
+          "request": {
+            "url": "http:\/\/example\/api\/checks",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        }
+      ]
+    }
+  ]
+}
